@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: rgb(168, 170, 169);
+  width: 550px;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 100px auto 0;
+}
+
+.inputDesc,
+.inputValue {
+  border: none;
+  border-radius: 10px;
+  width: auto;
+  height: 30px;
+  padding-left: 2px;
+}
+
+.addGain {
+  background-color: #04aa28;
+  border-radius: 4px;
+}
+
+.addLoss {
+  background-color: rgb(255, 7, 7);
+  border-radius: 5px;
+}
+
+button {
+  display: inline-block;
+  padding: 15px 25px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  border: none;
+  box-shadow: 0 9px #999;
+}
+
+.addGain:hover {
+  background-color: #3e8e41;
+}
+
+.addGain:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+}
+
+.addLoss:hover {
+  background-color: rgb(200, 6, 6);
+}
+
+.addLoss:active {
+  background-color: rgb(200, 6, 6);
+  box-shadow: 0 5px #666;
+}
+
+.listAll {
+  width: 100%;
+  list-style: none;
+  padding-top: 20px;
+}
+
+.listAll .valueBar {
+  background-color: #5ff461;
+  box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.2);
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.closeButton {
+  height: 25px;
+}
+
+.listAllLoss .valueBarLoss {
+  background-color: #fc6767;
+  box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.2);
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
